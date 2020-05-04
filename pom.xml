@@ -7,6 +7,32 @@
     <groupId>com.learning</groupId>
     <artifactId>spark-scala</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+    <scala-maven-plugin.version>3.4.2</scala-maven-plugin.version>
+    </properties>
+    <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <testSourceDirectory>src/test/scala</testSourceDirectory>
+        <plugins>
+    <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>${scala-maven-plugin.version}</version>
 
+        <executions>
+            <execution>
+                <id>default-sbt-compile</id>
+                <!-- this is so we don't end with a compile error in maven-compiler-plugin -->
+                <!--<phase>process-sources</phase>-->
+                <goals>
+                    <goal>compile</goal>
+                    <goal>testCompile</goal>
+                    <goal>doc-jar</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
+        </plugins>
+    </build>
 
 </project>
