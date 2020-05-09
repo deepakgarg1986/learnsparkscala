@@ -16,5 +16,5 @@ class learnGetterSetter {
   * Both subtyping and the use of variables are discouraged in Scala
   * how toString Function gets created automatically
   * toString Function comes becasue class extends AnyRef which extends Any
-  * toString is the function of Any/*
+  * toString is the function of Any
   */

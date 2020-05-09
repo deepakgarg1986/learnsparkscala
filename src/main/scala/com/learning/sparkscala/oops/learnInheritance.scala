@@ -30,7 +30,8 @@ val a = new Car(10,"Maruti")
 println("Speed of Car: " + a.mph)
 a.race()
 */
-
+/**
 val a = new Car(20)
 println("Speed of Car: " + a.mph)
 a.race()
+*/

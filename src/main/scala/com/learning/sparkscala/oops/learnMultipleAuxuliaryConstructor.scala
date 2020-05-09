@@ -15,11 +15,11 @@ class learnMultipleAuxuliaryConstructor(firstname: String,
     println("This is Auxiliary constructor with firstname")
     println("First Name is " + firstname)
   }
-  def this(lastname: String) {
+  /**def this(lastname: String) {
     this("", lastname, "")
     println("This is Auxiliary constructor with lastname")
     println("lastname  is " + lastname)
-  }
+  }*/
 }
 //val p1 = new learnMultipleAuxuliaryConstructor("Ram","Sharma","Pawan")
 //val p2 = new learnMultipleAuxuliaryConstructor("Ram")

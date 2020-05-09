@@ -5,12 +5,27 @@ object learnArray {
   def main(args: Array[String]): Unit = {
 
     /** How to create an Array**/
-    val a = Array(1, 2, 3, 4, 5)
+    /**Array with values*/
+    val intArray:Array[Int] = Array(1, 2, 3, 4, 5)
+    val stringArray:Array[String] = Array("a","b","c")
+    /**Array without values*/
+    var intArrayWV = new Array[Int](4)
+    intArrayWV(2) = 23
+    /** What differ types of array can be created*/
+
 
     /** What we can do with Array **/
-    val a(2) = 10
+    intArray(2) = 10
 
     /** What we cannot do with array **/
-    val a(3) = "ram"
+    /** We can not change the size of array*/
+    intArray(4) = 12
+    /** We cannot change the data type once it is declared*/
+
+   // intArray(3) = "ram"
+    /** how to print an array*/
+    intArray.foreach(println)
+
+
   }
 }
