@@ -1,5 +1,5 @@
 package com.learning.sparkscala.oops
-
+/* Scala Provides Getter and Setter by default*/
 class learnGetter {
   val size = 1
 

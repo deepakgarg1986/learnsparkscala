@@ -5,8 +5,8 @@ class learnAuxiliaryConstructor(firstname: String,
                                 middleName: String) {
 
   /**def this - Define an Auxiliary Constructor
-  *Rule - First Line of Auxiliary Constructor ,you have to call primary constructor
-    * While calling primary constructor , you need to pass all the arguments
+  *Rule - Each auxiliary constructor must have a different signature (different parameter lists)
+    * Each constructor must call one of the previously defined constructors
   */
   println("Complete Name is " + firstname + lastName + middleName)
   def this(firstname: String) {
