@@ -1,8 +1,10 @@
+package com.learning.sparkscala.oops
+
 trait learnLayeredTraits  {
   def log (msg: String) {println(msg)}
 
 }
-trait TimestampLogger extends learnLayeredTraits {
+/**trait TimestampLogger extends learnLayeredTraits {
   abstract override def log (msg: String) {
     println(new java.util.Date() )
     super.log(new java.util.Date() + " " + msg)
@@ -18,10 +20,11 @@ trait ShortLogger extends learnLayeredTraits {
   }
 }
 
- class togging extends  TimestampLogger with ShortLogger
+class togging extends  TimestampLogger with ShortLogger
 
 
 
 
 val a = new togging
 a.log("This is interesting example")
+*/

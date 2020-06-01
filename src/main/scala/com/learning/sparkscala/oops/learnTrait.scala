@@ -1,5 +1,9 @@
 package com.learning.sparkscala.oops
 
+//Unlike a class inherits only one super class, a class can inherit any number of traits//
+//Scala allow traits to be partially implemented //
+
+
 trait learnTrait [A] {
   def hasNext:Boolean
   def next():A

@@ -6,7 +6,7 @@ class learnInheritance (speed:Int) {
     * What is difference between extend and import
     * When to use which?
     * Override keyword
-    * Primary Constructor and base constructor
+    * Difference Primary Constructor and base constructor
     *     */
   val mph: Int = speed
   def race() = println("Racing")
@@ -26,6 +26,7 @@ class Car(speed:Int)  extends learnInheritance(speed) {
 }
 
 /** Posted question on stack overflow why we cannot extend auxiliary constructors of parent class */
+/* Auxiliary constructors are not inherited*/
 val a = new Car(10,"Maruti")
 println("Speed of Car: " + a.mph)
 a.race()
