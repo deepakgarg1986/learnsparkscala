@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46c6a6d-cb29-4604-9aa9-b41eae568b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Assignments/class3Edu1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnHigherOrderFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnHigherOrderFunctions2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/Person$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnInheritance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnInheritance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Assignments/class3Edu1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="162">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -72,9 +94,14 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatterMatching2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/LearnHigherOrderFunctions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/LearnHigherOrderFunctions2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Assignments/class3Edu.scala" />
       </list>
     </option>
   </component>
@@ -103,7 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +171,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-scala" type="b2602c69:ProjectViewProjectNode" />
@@ -169,11 +196,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591010518742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591382266791" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -191,13 +218,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.learnPatterMatching2">
-    <configuration name="learnArrayBuffer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.collections.learnArrayBuffer" />
+  <component name="RunManager" selected="Application.class3Edu">
+    <configuration name="LearnHigherOrderFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.functional.learnHigherOrderFunctions" />
       <module name="spark-scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.collections.*" />
+          <option name="PATTERN" value="com.learning.sparkscala.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +232,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learnList" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.collections.learnList" />
+    <configuration name="LearnHigherOrderFunctions2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.functional.learnHigherOrderFunctions2" />
       <module name="spark-scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.collections.*" />
+          <option name="PATTERN" value="com.learning.sparkscala.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class3Edu" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.Assignments.class3Edu" />
+      <module name="spark-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.sparkscala.Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learnAnonymousFunctions2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.functional.learnAnonymousFunctions2" />
+      <module name="spark-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.sparkscala.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,46 +284,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learnPatternMatching" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.oops.learnPatternMatching" />
-      <module name="spark-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learnSingletonObject" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.oops.learnSingletonObject" />
-      <module name="spark-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.learnArrayBuffer" />
-      <item itemvalue="Application.learnList" />
-      <item itemvalue="Application.learnSingletonObject" />
-      <item itemvalue="Application.learnPatternMatching" />
       <item itemvalue="Application.learnPatterMatching2" />
+      <item itemvalue="Application.LearnHigherOrderFunctions" />
+      <item itemvalue="Application.LearnHigherOrderFunctions2" />
+      <item itemvalue="Application.learnAnonymousFunctions2" />
+      <item itemvalue="Application.class3Edu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.class3Edu" />
+        <item itemvalue="Application.learnAnonymousFunctions2" />
+        <item itemvalue="Application.LearnHigherOrderFunctions2" />
+        <item itemvalue="Application.LearnHigherOrderFunctions" />
         <item itemvalue="Application.learnPatterMatching2" />
-        <item itemvalue="Application.learnPatternMatching" />
-        <item itemvalue="Application.learnSingletonObject" />
-        <item itemvalue="Application.learnList" />
-        <item itemvalue="Application.learnArrayBuffer" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +318,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.295764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +327,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26557377" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26557377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,13 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnArray.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -443,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatterMatching2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -487,15 +500,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnArray.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnHigherOrderFunctions2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="11" selection-start-column="9" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnHigherOrderFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="-17">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Assignments/class3Edu1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
