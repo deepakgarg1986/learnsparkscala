@@ -1,0 +1,6 @@
+This is sample
+text file
+I need this file
+so that i can
+test my code 10leatterword1
+10letterword2
