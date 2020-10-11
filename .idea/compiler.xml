@@ -9,5 +9,8 @@
         <module name="spark-scala" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spark-scala" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,7 +2,6 @@ package com.learning.sparkscala.oops
 /* Scala Provides Getter and Setter by default*/
 class learnGetter {
   val size = 1
-
 }
 //val f = new learnGetter
 //val a =  f.size

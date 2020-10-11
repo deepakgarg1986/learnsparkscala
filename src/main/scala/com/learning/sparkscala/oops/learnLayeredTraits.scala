@@ -22,11 +22,11 @@ println("We are in Short Logger")
   }
 }
 
-class togging extends  TimestampLogger with ShortLogger
+class Logging extends  TimestampLogger with ShortLogger
 
 
 
 
-val a = new togging
-a.log("This is interesting example")
+val a = new Logging
+a.log("Logger example")
 */

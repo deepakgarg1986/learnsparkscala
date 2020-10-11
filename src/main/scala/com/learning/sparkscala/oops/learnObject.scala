@@ -1,6 +1,6 @@
 package com.learning.sparkscala.oops
 
-class learnObject {
+class learnObject  {
   private var value = 0 // fields must be initialized
   def incr() {value += 1}
   def curr() = value

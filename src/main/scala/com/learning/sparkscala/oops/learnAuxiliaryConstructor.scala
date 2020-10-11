@@ -16,4 +16,4 @@ class learnAuxiliaryConstructor(firstname: String,
 }
 
 //val p1 = new learnAuxiliaryConstructor("Ram" ,"Singh","")
-//val p2 = new learnAuxiliaryConstructor(firstname ->"Ram")
+//val p2 = new learnAuxiliaryConstructor("Ram")

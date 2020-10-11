@@ -1,6 +1,6 @@
 package com.learning.sparkscala.oops
 
-class learnMultipleAuxuliaryConstructor(firstname: String,
+class learnMultipleAuxuliaryConstructor(firstName: String,
                                         lastName: String,
                                         middleName: String) {
 
@@ -9,17 +9,26 @@ class learnMultipleAuxuliaryConstructor(firstname: String,
       * While calling primary constructor , you need to pass all the arguments
       */
   println("This is primary constructor")
-  println("Complete Name is " + firstname + lastName + middleName)
+  println("Complete Name is " + firstName + lastName + middleName)
   def this(firstname: String) {
     this(firstname, "", "")
     println("This is Auxiliary constructor with firstname")
-    println("First Name is " + firstname)
+    println("First Name is " + firstName)
   }
   /**def this(lastname: String) {
     this("", lastname, "")
     println("This is Auxiliary constructor with lastname")
     println("lastname  is " + lastname)
   }*/
+
+  def this(lastname: String,middlename: String) {
+    this("",lastname,middlename)
+    println("This is Auxiliary constructor with Lastname and MiddleName")
+    println("Last Name is " + lastName)
+    println("Middle Name is " + middleName)
+  }
+
+
 }
 //val p1 = new learnMultipleAuxuliaryConstructor("Ram","Sharma","Pawan")
 //val p2 = new learnMultipleAuxuliaryConstructor("Ram")

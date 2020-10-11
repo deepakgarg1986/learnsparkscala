@@ -4,12 +4,12 @@ package com.learning.sparkscala.oops
 //Scala allow traits to be partially implemented //
 
 
-trait learnTrait [A] {
+trait learnTrait  {
   def hasNext:Boolean
-  def next():A
+  def next():Int
 }
 /**
-class IntIterator (to: Int) extends learnTrait[Int] {
+class IntIterator (to: Int) extends learnTrait {
   private var current = 0
   override def hasNext:Boolean = current < to
   override def next(): Int = {
