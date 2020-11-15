@@ -5,6 +5,6 @@ class learnPrimaryConstructor(firstname: String,
                               middleName: String) {
   println(firstname +' '+ lastName +' '+ middleName)
   def first() { println(firstname) }
-  def middle() { println(lastName) }
+  def middle() { println(middleName) }
 }
 //  val p1 = new learnPrimaryConstructor("Ram" ,"Singh","")

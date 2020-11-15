@@ -20,6 +20,15 @@ object learnMultidimentionalArray {
     empRating(0)(2)=3
     println("Employee Rating Is: "+empRating(0)(0) + " " + empRating(0)(1) + " " + empRating(0)(2))
 
+    employeeMatrix(0)(0) = 1
+    employeeMatrix(0)(1) = 1
+    employeeMatrix(0)(2) = 1
+    employeeMatrix(1)(0) = 2
+    employeeMatrix(1)(1) = 2
+    employeeMatrix(1)(2) = 2
+
+    employeeMatrix.map(x => {x.foreach(print); println()})
+
 
 
 

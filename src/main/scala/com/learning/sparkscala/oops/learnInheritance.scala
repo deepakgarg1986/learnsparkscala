@@ -13,7 +13,7 @@ class learnInheritance (speed:Int) {
 
   def this (speed:Int, model:String) {
     this(speed)
-    println("Speed of call is " + speed + "and model is " + model)
+    println("Speed of car is " + speed + "and model is " + model)
   }
 
 }
