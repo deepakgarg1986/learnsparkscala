@@ -1,52 +1,496 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2695c5c5-996f-486b-ae57-b2873a76bf06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/AaonUseCase.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ReadMultilineJson.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/utilsfunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2cff798b-fa51-4def-8ab6-466b0b7565ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_guice_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_5_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vlkan_flatbuffers_1_2_0_3f79e055.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_airlift_aircompressor_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_9_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_iharder_base64_2_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_format_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_memory_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_vector_0_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_core_nohive_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_mapreduce_nohive_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_52.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_htrace_htrace_core_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scalap_2_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/learning/sparkscala/oops/run.sc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Experiments/Application.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Experiments/Application.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnMultidimentionalArray.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnMultidimentionalArray.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnAuxiliaryConstructor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnAuxiliaryConstructor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatterMatching2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatterMatching2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPrimaryConstructor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPrimaryConstructor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-scala.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnArrayMore.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnArrayMore.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ReadMultilineJson.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ReadMultilineJson.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ScalaWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ScalaWordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMultidimentionalArray$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMultidimentionalArray$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCompanion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCompanion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnClass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-e.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-g.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-g.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-m.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-m.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-p.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-r.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-r.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-s.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-s.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-u.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scaladocs/index/index-u.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spark-scala-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spark-scala-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spark-scala-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spark-scala-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.learning.sparkscala.collections.learnArrayTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.learning.sparkscala.collections.learnArrayTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.learning.sparkscala.collections.learnArrayTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.learning.sparkscala.collections.learnArrayTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes.408323422.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3Edu1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3Edu1$BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3Edu1$CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3Edu1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3Edu1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$$anonfun$fact$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/class3LargestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/guessNumber$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Assignments/guessNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/ExceptionHandling/learnExceptionHandling$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/ExceptionHandling/learnExceptionHandling$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/ExceptionHandling/learnExceptionHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Experiments/Application$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Experiments/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Experiments/Utils$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Experiments/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/Experiments/learnTrait3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArray$$anonfun$createArray$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArray$$anonfun$createArray$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArray$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayBuffer$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayBuffer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$6$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$7$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnArrayMore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnListBuffer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnListBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMap$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMultidimentionalArray$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMultidimentionalArray$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMultidimentionalArray$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnMultidimentionalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnSet$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnTuple$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/collections/learnTuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnAnonymousFunctions$$anonfun$sumCubesHOA$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnAnonymousFunctions$$anonfun$sumIntsHO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnAnonymousFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnAnonymousFunctions$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnAnonymousFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnCurryingFunction$$anonfun$calculatePriceCurrying$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnCurryingFunction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnCurryingFunction$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnCurryingFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnFunctionThatReturnsFunctions$$anonfun$urlBuilder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnFunctionThatReturnsFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnFunctionThatReturnsFunctions$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnFunctionThatReturnsFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$$anonfun$sumCubesHO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$$anonfun$sumCubesHOA$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$$anonfun$sumFactorialHO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$$anonfun$sumIntsHO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnHigherOrderFunctions2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnInheritanceBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnInheritanceParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnInheritanceTrait$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/functional/learnInheritanceTrait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnAuxiliaryConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCaseClass$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCompanion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCompanion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCompanionObject$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnCompanionObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnGetterSetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnGetterSetter2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnLayeredTraits$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnLayeredTraits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnMultipleAuxuliaryConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$Person$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2$Person$4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatterMatching2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatternMatching$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatternMatching$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPatternMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnPrimaryConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnSingletonObject$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnSingletonObject$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnSingletonObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnTrait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnTrait2$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/oops/learnTrait2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/AaonUseCase$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/AaonUseCase$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/AaonUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ReadMultilineJson$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ReadMultilineJson$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ReadMultilineJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/ScalaWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/utilsfunctions$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/utilsfunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/sparkscala/spark/utilsfunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/class3Edu1$$BankAccount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/class3Edu1$$CheckingAccount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/class3Edu1$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/class3LargestElement$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/guessNumber$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Assignments/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/ExceptionHandling/learnExceptionHandling$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/ExceptionHandling/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Experiments/Application$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Experiments/Utils$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Experiments/learnTrait3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/Experiments/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnArray$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnArrayBuffer$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnArrayMore$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnList$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnListBuffer$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnMap$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnMultidimentionalArray$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnSet$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/learnTuple$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/collections/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnAnonymousFunctions$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnCurryingFunction$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnFunctionThatReturnsFunctions$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnHigherOrderFunctions$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnHigherOrderFunctions2$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnInheritanceBase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnInheritanceParent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/learnInheritanceTrait.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/functional/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnAuxiliaryConstructor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnCaseClass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnClass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnCompanion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnCompanionObject$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnCompanionObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnGetter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnGetterSetter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnGetterSetter2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnInheritance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnLayeredTraits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnMultipleAuxuliaryConstructor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnPatterMatching2$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnPatternMatching$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnPrimaryConstructor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnSingletonObject$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnTrait.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/learnTrait2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/oops/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/spark/ScalaWordCount$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/learning/sparkscala/spark/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/com/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-g.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-i.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-l.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-o.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-p.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-q.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-r.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-s.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-u.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/index/index-w.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/class.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/class_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/class_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/class_to_object_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/constructorsbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/conversionbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/defbg-blue.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/defbg-green.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/diagrams.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/diagrams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/filter_box_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/filter_box_left2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/filter_box_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/filterbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/filterboxbarbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/filterboxbarbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/filterboxbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/fullcommenttopbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/jquery.layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/modernizr.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/navigation-li-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/navigation-li.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/object_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/object_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/object_to_class_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/object_to_trait_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/object_to_type_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/ownderbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/ownerbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/ownerbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/package.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/package_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/packagesbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/permalink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/ref-index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/scheduler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/selected-implicits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/selected-right-implicits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/selected-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/selected2-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/selected2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/signaturebg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/signaturebg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/tools.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/trait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/trait_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/trait_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/trait_to_object_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/type.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/type_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/type_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/type_to_object_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/typebg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/unselected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/lib/valuemembersbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scaladocs/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spark-scala-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spark-scala-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.learning.sparkscala.collections.learnArrayTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.learning.sparkscala.collections.learnArrayTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes.1671134583.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/outputtextFile/reversetextfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/textFile/sampletextfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/learning/sparkscala/collections/learnArrayTest.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,110 +499,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ReadMultilineJson.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait.scala">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" selection-start-line="24" selection-end-line="26" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatterMatching2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatternMatching.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanion.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanionObject.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnSingletonObject.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnMultipleAuxuliaryConstructor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="64" />
+            <state relative-caret-position="328">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Scala Worksheet" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>import</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,48 +526,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnObject.scala" />
-        <option value="$PROJECT_DIR$/out/production/main/com/learning/sparkscala/oops/run.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnHigherOrderFunctions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnMultipleAuxuliaryConstructor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnFunctionThatReturnsFunctions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnInheritanceabstract.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnInheritanceTrait.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/ExceptionHandling/learnExceptionHandling.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/sample.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnCurryingFunction.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanionObject.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnInheritanceBase.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnInheritanceParent.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnGetter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnSingletonObject.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnArray.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/learning/sparkscala/collections/learnArrayTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/hello.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Experiments/Application.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ScalaWordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ReadMultilineJson.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/AaonUseCase.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/utilsfunctions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnMultidimentionalArray.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanion.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatterMatching2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnClass.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPrimaryConstructor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnAuxiliaryConstructor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.5.4" />
+        <option name="mavenHome" value="C:/Softwares/apache-maven-3.5.4" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -232,110 +558,42 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-115" />
-    <option name="y" value="24" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="ExceptionHandling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="functional" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsparkscala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnsparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
-              <item name="oops" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spark-scala" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spark-scala" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604858474408" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -349,13 +607,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.learnFunctionThatReturnsFunctions">
-    <configuration name="AaonUseCase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.spark.AaonUseCase" />
+  <component name="RunManager">
+    <configuration name="linearRegressionML" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.MachineLearning.linearRegressionML" />
       <module name="spark-scala" />
+      <option name="VM_PARAMETERS" value="-Xmx512M" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.spark.*" />
+          <option name="PATTERN" value="com.learning.sparkscala.MachineLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,72 +622,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadMultilineJson" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.spark.ReadMultilineJson" />
-      <module name="spark-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learnFunctionThatReturnsFunctions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.functional.learnFunctionThatReturnsFunctions" />
-      <module name="spark-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learnMultidimentionalArray" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.collections.learnMultidimentionalArray" />
-      <module name="spark-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learnPatterMatching2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.sparkscala.oops.learnPatterMatching2" />
-      <module name="spark-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.sparkscala.oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ReadMultilineJson" />
-      <item itemvalue="Application.AaonUseCase" />
-      <item itemvalue="Application.learnMultidimentionalArray" />
-      <item itemvalue="Application.learnPatterMatching2" />
-      <item itemvalue="Application.learnFunctionThatReturnsFunctions" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.learnFunctionThatReturnsFunctions" />
-        <item itemvalue="Application.learnPatterMatching2" />
-        <item itemvalue="Application.learnMultidimentionalArray" />
-        <item itemvalue="Application.ReadMultilineJson" />
-        <item itemvalue="Application.AaonUseCase" />
+        <item itemvalue="Application.linearRegressionML" />
       </list>
     </recent_temporary>
   </component>
@@ -437,59 +633,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2695c5c5-996f-486b-ae57-b2873a76bf06" name="Default Changelist" comment="" />
-      <created>1593263628828</created>
+      <changelist id="2cff798b-fa51-4def-8ab6-466b0b7565ba" name="Default Changelist" comment="" />
+      <created>1605632525728</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593263628828</updated>
+      <updated>1605632525728</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added ML">
+      <created>1606928129689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606928129689</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="learnArrayTest - 2020.07.24 at 21h 18m 57s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.24 at 21h 19m 16s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.24 at 21h 19m 27s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.24 at 21h 19m 42s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.24 at 21h 19m 52s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.25 at 12h 10m 41s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.25 at 14h 28m 44s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.25 at 20h 50m 40s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.07.25 at 20h 51m 03s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="learnArrayTest - 2020.10.09 at 19h 16m 19s.xml">
-      <configuration name="learnArrayTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView" selected-index="3">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -498,15 +660,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2831424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992224" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007776" side_tool="true" weight="0.32851985" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32569557" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4992224" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -514,365 +676,11 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.3290469" />
     </layout>
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-scala.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/main/com/learning/sparkscala/oops/run.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnCurryingFunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Assignments/class3Edu1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/sample.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCaseClass.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnInheritanceParent.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnInheritanceTrait.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnInheritanceBase.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/learning/sparkscala/collections/learnArrayTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnArray.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="646" column="45" lean-forward="true" selection-start-line="646" selection-start-column="45" selection-end-line="646" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Experiments/NewFile.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Experiments/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnAnonymousFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Experiments/learnTrait3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/Experiments/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnArrayBuffer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ReadMultilineJson.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/ScalaWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="65" />
-          <folding>
-            <element signature="e#39#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/ExceptionHandling/learnExceptionHandling.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnTuple.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnSet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/utilsfunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/spark/AaonUseCase.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="e#39#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/collections/learnMultidimentionalArray.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnObject.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnGetterSetter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnLayeredTraits.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnHigherOrderFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnFunctionThatReturnsFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/functional/learnHigherOrderFunctions2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnClass.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnGetter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnGetterSetter2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPrimaryConstructor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnAuxiliaryConstructor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnMultipleAuxuliaryConstructor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnSingletonObject.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanion.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnCompanionObject.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatternMatching.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnPatterMatching2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnInheritance.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/learnTrait.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" selection-start-line="24" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/learning/sparkscala/oops/run.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -902,7 +710,6 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -939,7 +746,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -950,8 +757,5 @@
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="" />
   </component>
 </project>

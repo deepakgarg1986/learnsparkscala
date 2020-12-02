@@ -9,7 +9,10 @@ object ReadMultilineJson  extends App{
     .getOrCreate()
 
 
-  val multilineJson = spark.read.option("multiline",true).json("file:///C:\\Users\\sapnag\\Desktop\\Edureka\\multiline.json")
+
+  val multilineJson = spark.read.option("multiline",true).
+    json("file:///C:\\Users\\sapnag\\Desktop\\Edureka\\multiline.json")
+
 
   multilineJson.show
 }

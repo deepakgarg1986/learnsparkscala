@@ -1,30 +1,30 @@
-trait learnTrait  {
-  def hasNext:Boolean
-  def next():Int  = 5
+trait learnLayeredTraits  {
+  def log (msg: String) {println(msg)}
+
 }
-class IntIterator (to: Int) extends learnTrait {
-  private var current = 0
-   def hasNext:Boolean = current < to
-   override def next(): Int = {
-    if (hasNext) {
-      val t = current
-      current += 1
-      t
-    } else 0 }
+trait TimestampLogger extends learnLayeredTraits {
+  abstract override def log (msg: String) {
+println("We are in Timestamp Logger")
+    println(new java.util.Date() )
+    //super.log(new java.util.Date() + " " + msg)
+
+  }
 }
-val iterator = new IntIterator(10)
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
+
+trait ShortLogger extends learnLayeredTraits {
+  val maxLength = 15
+  abstract override def log(msg: String) {
+println("We are in Short Logger")
+    //super.log( if (msg.length <= maxLength) msg
+    //else msg.substring(0,maxLength -3) + "...")
+  }
+}
+
+class Logging extends  TimestampLogger with ShortLogger
 
 
+
+
+val a = new Logging
+a.log("Logger example")
 

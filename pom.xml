@@ -46,29 +46,55 @@
         <scope>provided</scope> -->
     </dependency>
 
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_${scala.binary.version}</artifactId>
+            <version>2.3.0</version>
+
+        </dependency>
+
+
     </dependencies>
     <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
     <testSourceDirectory>src/test/scala</testSourceDirectory>
         <plugins>
-    <plugin>
-        <groupId>net.alchim31.maven</groupId>
-        <artifactId>scala-maven-plugin</artifactId>
-        <version>${scala-maven-plugin.version}</version>
+            <plugin>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>scala-maven-plugin</artifactId>
+                <version>${scala-maven-plugin.version}</version>
 
-        <executions>
+                <executions>
+                    <execution>
+                        <id>default-sbt-compile</id>
+                        <!-- this is so we don't end with a compile error in maven-compiler-plugin -->
+                        <!--<phase>process-sources</phase>-->
+                        <goals>
+                            <goal>compile</goal>
+                            <goal>testCompile</goal>
+                            <goal>doc-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.2.3</version>
+
+            <executions>
             <execution>
-                <id>default-sbt-compile</id>
-                <!-- this is so we don't end with a compile error in maven-compiler-plugin -->
-                <!--<phase>process-sources</phase>-->
-                <goals>
-                    <goal>compile</goal>
-                    <goal>testCompile</goal>
-                    <goal>doc-jar</goal>
-                </goals>
+            <phase>package</phase>
+            <goals>
+                <goal>shade</goal>
+            </goals>
             </execution>
-        </executions>
-    </plugin>
+            </executions>
+            </plugin>
+
         </plugins>
     </build>
 
