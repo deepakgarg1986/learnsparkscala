@@ -17,10 +17,16 @@ object ScalaWordCount {
     //  .config("spark.master", "local")
     //  .getOrCreate()
 
-  // val logFile = "file:///C:\\Users\\sapnag\\Desktop\\Edureka\\sampletextfile.txt"
+  //val logFile = "file:///C:\\Users\\sapnag\\Desktop\\Edureka\\sampletextfile.txt"
    val logFile = "hdfs://nameservice1/user/edureka_967855/SparkScala/input/samplefile.txt"
 
+    //val file = sc.textFile(logFile)
+  //file.collect.foreach(println)
+
+
+
     //RDD
+
     val file = sc.textFile(logFile)
    // val certainwords = file.filter(x => x.contains("this"))
     //certainwords.collect().foreach(println)

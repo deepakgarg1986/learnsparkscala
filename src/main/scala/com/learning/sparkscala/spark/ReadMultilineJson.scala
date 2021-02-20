@@ -8,7 +8,7 @@ object ReadMultilineJson  extends App{
     .config("spark.master", "local")
     .getOrCreate()
 
-
+spark.sparkContext.setLogLevel("WARN")
 
   val multilineJson = spark.read.option("multiline",true).
     json("file:///C:\\Users\\sapnag\\Desktop\\Edureka\\multiline.json")

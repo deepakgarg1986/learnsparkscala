@@ -19,16 +19,17 @@ object DataframeDataset extends App{
   val dataframeex = spark.read
     .json("file:///C:\\Users\\sapnag\\Desktop\\Edureka\\employee.json")
 
-  val dataframeex1 = dataframeex.select("name")
+  val dataframeex1 = dataframeex.select("names")
 
   val datasetex = spark.read
-    .json("file:///C:\\Users\\sapnag\\Desktop\\Edureka\\employee.json").toDF().as[employee]
+    .json("file:///C:\\Users\\sapnag\\Desktop\\Edureka\\employee.json").as[employee]
 
-  val datasetex1 = datasetex.select("names")
+  val datasetex1 = datasetex.map(_.name)
+  datasetex1.show
 
   case class Person(name: String, age: Int)
 
   val personDS = Seq(Person("Max", 33), Person("Adam", 32), Person("Muller", 62)).toDS()
-  personDS.select("names").show()
+  personDS.select("name").show()
 
 }

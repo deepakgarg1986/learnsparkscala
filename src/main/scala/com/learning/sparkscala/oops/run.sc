@@ -1,30 +1,20 @@
-trait learnLayeredTraits  {
-  def log (msg: String) {println(msg)}
-
+trait basetrait {
+  def log(msg:String) = ()
 }
-trait TimestampLogger extends learnLayeredTraits {
-  abstract override def log (msg: String) {
-println("We are in Timestamp Logger")
+
+trait learnLearnedTraits2 extends basetrait {
+  override def log(msg: String) {
+    println(msg)
+    super.log(msg)
+  }
+}
+
+trait TimestampLogger extends basetrait {
+   override def log (msg: String) {
+    println("We are in Timestamp Logger")
     println(new java.util.Date() )
-    //super.log(new java.util.Date() + " " + msg)
-
   }
 }
-
-trait ShortLogger extends learnLayeredTraits {
-  val maxLength = 15
-  abstract override def log(msg: String) {
-println("We are in Short Logger")
-    //super.log( if (msg.length <= maxLength) msg
-    //else msg.substring(0,maxLength -3) + "...")
-  }
-}
-
-class Logging extends  TimestampLogger with ShortLogger
-
-
-
-
+class Logging extends   TimestampLogger with learnLearnedTraits2
 val a = new Logging
-a.log("Logger example")
-
+a.log("Log Message")
