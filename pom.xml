@@ -10,7 +10,7 @@
     <properties>
     <scala-maven-plugin.version>3.4.2</scala-maven-plugin.version>
 
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <scala.binary.version>2.11</scala.binary.version>
         <scala.compat.version>2.11.8</scala.compat.version>
     </properties>
