@@ -8,8 +8,8 @@ class learnPrimaryConstructor(firstname: String,
   def middle() { println(middleName) }
   def last() {println(lastName)}
 
-  first()
-  middle()
-  last()
+  //first()
+ // middle()
+ // last()
 }
 //  val p1 = new learnPrimaryConstructor("Ram" ,"Singh","")

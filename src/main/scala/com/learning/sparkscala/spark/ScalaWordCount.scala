@@ -17,8 +17,8 @@ object ScalaWordCount {
     //  .config("spark.master", "local")
     //  .getOrCreate()
 
-  //val logFile = "file:///C:\\Users\\sapnag\\Desktop\\Edureka\\sampletextfile.txt"
-   val logFile = "hdfs://nameservice1/user/edureka_967855/SparkScala/input/samplefile.txt"
+  val logFile = "file:///C:\\Users\\deepak.garg\\Desktop\\Edu\\samplefile.txt"
+   //val logFile = "hdfs://nameservice1/user/deepakpec295edu/samplefiles/txt/sample.txt"
 
     //val file = sc.textFile(logFile)
   //file.collect.foreach(println)
@@ -31,9 +31,11 @@ object ScalaWordCount {
    // val certainwords = file.filter(x => x.contains("this"))
     //certainwords.collect().foreach(println)
    // val file = spark.sparkContext.textFile(logFile)
-    val counts = file.flatMap(_.split(" ")).map(x => (x, 1)).reduceByKey(_ + _)
-    counts.collect().foreach(println)
+    val counts = file.flatMap(_.split(" ")).map(x => (x, 1)).reduceByKey(_ + _).sortByKey(true)
 
+
+    //counts.collect().foreach(println)
+    counts.saveAsTextFile("hdfs://nameservice1/user/deepakpec295edu/SparkScala")
      //counts.saveAsTextFile("file:///C:\\Users\\sapnag\\Desktop\\Edureka\\output")
   }
 }
